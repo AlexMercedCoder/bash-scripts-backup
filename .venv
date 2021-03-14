@@ -1,0 +1,4 @@
+#Virtualenvwrapper settings:
+export WORKON_HOME=$HOME/.virtualenv
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+. ~/.local/bin/virtualenvwrapper.sh

@@ -1,0 +1,31 @@
+pushy(){
+
+git add .
+git commit -m "$1"
+git push $2 $3
+}
+
+pushypub(){
+git add .
+git commit -m "$1"
+git push $2 $3
+npm publish
+}
+
+npmre (){
+npm uninstall $1
+npm install $1
+}
+
+killPort (){
+ sudo kill -9 $(sudo lsof -t -i:$1)
+}
+
+function newpyenv {
+    mkdir venv
+    python -m venv ./venv
+}
+
+function usepyenv {
+    source ./venv/bin/activate
+}

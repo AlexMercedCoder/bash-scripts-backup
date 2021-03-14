@@ -1,0 +1,6 @@
+#JetBrains Software Shortcuts
+alias amgoland='/home/alexmerced/jetbrains/goland-2020.1.3/GoLand-2020.1.3/bin/goland.sh'
+alias amphpstorm='/home/alexmerced/jetbrains/PhpStorm-2020.1.2/PhpStorm-201.7846.90/bin/phpstorm.sh'
+alias ampycharm='/home/alexmerced/jetbrains/pycharm-professional-2020.1.2/pycharm-2020.1.2/bin/pycharm.sh'
+alias amrubymine='/home/alexmerced/jetbrains/RubyMine-2020.1.2/bin/rubymine.sh'
+alias amwebstorm='/home/alexmerced/jetbrains/WebStorm-2020.1.2/WebStorm-201.7846.79/bin/webstorm.sh'

@@ -1,0 +1,30 @@
+
+#PATH EXPORTS
+export PATH="/home/alexmerced/swift/swift-5.2.4-RELEASE/swift-5.2.4-RELEASE-ubuntu20.04/usr/bin:$PATH"
+export DENO_INSTALL="/home/alexmerced/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH="$PATH:/snap/bin"
+export PATH="$PATH:/user/bin/virtualenv"
+export PATH="$PATH:/home/alexmerced/.config/composer/vendor/bin"
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
+eval "$(starship init bash)"
+export GOPATH="/home/alexmerced/development/Teaching/backend/Go"
+eval "$(pyenv init -)"
+eval "$(rbenv init -)"
+eval $(opam env)
+export PATH="$PATH:/home/alexmerced/.dotnet/tools"
+export DOTNET_ROOT="/snap/dotnet-sdk/current"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export CGO_CFLAGS="-g -O2 -Wno-return-local-addr"
+
+#OTHER BASH FILES
+
+. ~/bashfiles/.jetbrains
+. ~/bashfiles/.functions
+. ~/bashfiles/.venv
+. ~/bashfiles/.alias
+
+#ALIASES
+
+alias list="ls -la"
+alias postman="/home/alexmerced/apps/Postman/Postman"
