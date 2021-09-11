@@ -7,6 +7,7 @@ export PATH="$PATH:/snap/bin"
 export PATH="$PATH:/user/bin/virtualenv"
 export PATH="$PATH:/home/alexmerced/.config/composer/vendor/bin"
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
+export PATH="$PATH:/home/jetbrains/android-studio/bin"
 eval "$(starship init bash)"
 export GOPATH="/home/alexmerced/development/Teaching/backend/Go"
 eval "$(pyenv init -)"
@@ -16,6 +17,9 @@ export PATH="$PATH:/home/alexmerced/.dotnet/tools"
 export DOTNET_ROOT="/snap/dotnet-sdk/current"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export CGO_CFLAGS="-g -O2 -Wno-return-local-addr"
+export PATH="/home/alexmerced/anaconda3/bin:$PATH"
+
+
 
 #OTHER BASH FILES
 

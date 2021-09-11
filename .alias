@@ -2,5 +2,5 @@ alias dock="sudo docker"
 alias killgit="sudo rm -r .git"
 alias responsively="/home/alexmerced/apps/responsively/ResponsivelyApp-0.15.0.AppImage"
 alias startneo="docker run --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:/data --env=NEO4j_AUTH=none neo4j"
-
-
+alias mongoserver="sudo mongod --dbpath ~/mongodata"
+alias metacpanshell="perl -MCPAN -e 'shell'"
