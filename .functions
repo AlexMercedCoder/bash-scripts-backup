@@ -22,10 +22,22 @@ killPort (){
 }
 
 function newpyenv {
-    mkdir venv
     python -m venv ./venv
 }
 
 function usepyenv {
     source ./venv/bin/activate
+}
+
+function create-venv(){
+    python -m venv $1
+}
+
+function activate-venv(){
+    source ./$1/bin/activate
+}
+
+useConda (){
+    source ~/anaconda3/bin/activate
+    conda init
 }

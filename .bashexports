@@ -18,7 +18,12 @@ export DOTNET_ROOT="/snap/dotnet-sdk/current"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export CGO_CFLAGS="-g -O2 -Wno-return-local-addr"
 export PATH="/home/alexmerced/anaconda3/bin:$PATH"
-
+export JAVA_HOME=/opt/jdk-17
+export PATH=$PATH:$JAVA_HOME/bin 
+export PATH="$PATH:/home/alexmerced/.local/share/coursier/bin"
+##BUN
+BUN_INSTALL="/home/alexmerced/.bun"
+PATH="$BUN_INSTALL/bin:$PATH"
 
 
 #OTHER BASH FILES
